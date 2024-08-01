@@ -1,5 +1,6 @@
 
 import './App.css'
+import CreatePost from './components/CreatePost/CreatePost'
 import Intro from './components/Intro/Intro'
 import Photo from './components/Intro/Photo'
 import Navbar from './components/Navbar/Navbar'
@@ -26,6 +27,10 @@ function App() {
 
       <div className="col-span-5 col-start-1">
         <Photo />
+      </div>
+
+      <div className="flex-row row-start-1 col-span-7 col-start-6">
+        <CreatePost />
       </div>
 
     </div>
